@@ -1,5 +1,6 @@
 body{
   font-family: fantasy;
+  margin: 0;
 }
   
 /* SETING UP NAVBAR */
@@ -28,11 +29,12 @@ ul#navbar > li > a{
 
 
 /* SETING UP Parallax */
-#parallax{
+#bannar{
     background-color: pink;
     background-image: url("https://vignette.wikia.nocookie.net/avatar/images/b/b7/Avatar_World_map.png/revision/latest?cb=20131005142135");
-    width: 100%;
-    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
     margin: 0;  
     display: flex;
     justify-content: center;
@@ -40,7 +42,7 @@ ul#navbar > li > a{
 }
 
 #caption{
-    background-color: rgb(134, 0, 0);
+    background-color: rgba(134, 0, 0,0.6);
     width: 40%;
     padding: 30px;
     text-align: center;
