@@ -111,3 +111,27 @@ ul#navbar > li > a{
   text-align: center;
   font-size: 1.2em;
 }
+
+/* SETTING UP CHARACTERS */
+.char-row{
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.char-img, .char-info{
+  height: 90%;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.char-img{  background-color: yellowgreen;}
+
+.char-info{  background-color: greenyellow; font-size: 1.75em;}
+
