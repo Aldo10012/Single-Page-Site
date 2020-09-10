@@ -35,6 +35,7 @@ ul#navbar > li > a{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    max-height: 100vh;
     margin: 0;  
     display: flex;
     justify-content: center;
@@ -49,5 +50,64 @@ ul#navbar > li > a{
 }
 #border{
     color: orange;
+    font-size: 1.75em
 }
 
+/* SETTING UP ELEMENT CARDS */
+#elements{
+  height: 100vh;
+  background-color: #e8e9e8;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.element-cards-row{
+  height: 80vh;
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center
+}
+
+.element-cards-in-row{
+  background-color: #cccdc6;
+  height: 95%;
+  width: 22%
+}
+
+#water{
+  background-image: url("https://vignette.wikia.nocookie.net/avatar/images/5/50/Waterbending_emblem.png/revision/latest?cb=20130729182922");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#earth{
+  background-image: url("https://vignette.wikia.nocookie.net/avatar/images/e/e4/Earthbending_emblem.png/revision/latest?cb=20130729200732");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#fire{
+  background-image: url("https://vignette.wikia.nocookie.net/avatar/images/4/4b/Firebending_emblem.png/revision/latest?cb=20130729203233");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#air{
+  background-image: url("https://vignette.wikia.nocookie.net/avatar/images/8/82/Airbending_emblem.png/revision/latest/scale-to-width-down/340?cb=20130729210446");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.element-content{
+  padding-top: 40vh;
+  margin: 15px;
+  text-align: center;
+  font-size: 1.2em;
+}
