@@ -2,17 +2,47 @@
 <html>
 	<head>
         <title>Single-page-Site</title>
-        <link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="index.css">
+		<style>
+			body{
+				font-family: fantasy;
+			}
+				
+			/* SETING UP NAVBAR */
+			
+			#navbar{
+				background-color: rgb(134, 0, 0);
+				list-style: none;
+				display: flex;
+				justify-content: flex-end;
+				overflow: hidden;
+			}
+				
+			#nav_elements{
+				margin-left: auto;
+			}
+				
+			ul#navbar > li{
+				padding: 15px;
+			}
+
+			ul#navbar > li > a{
+				color: orange;
+				font-size: 20px;
+				text-decoration: none;
+			}
+		</style>
+
 	</head>
 	<body>
 		<main>
 			<nav id="nav">
 				<ul id="navbar">
 					<li><a href="#bannar">Avatar the Last Airbender</a></li>
-					<li><a href="#elements">Elements</a></li>
+					<li id="nav_elements"><a href="#elements">Elements</a></li>
 					<li><a href="#characters">Characters</a></li>
 					<li><a href="#plot">Plot</a></li>
-					<li><a href="#subscription_form">Subscription_form</a></li>
+					<li><a href="#subscription_form">Subscribe</a></li>
 				</ul>
 			</nav>
 

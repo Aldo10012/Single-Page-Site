@@ -1,0 +1,27 @@
+body{
+  font-family: fantasy;
+}
+  
+/* SETING UP NAVBAR */
+/**/
+#navbar{
+  background-color: rgb(134, 134, 134);
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+  
+#nav_elements{
+  margin-left: auto;
+}
+  
+ul#navbar > li{
+  padding: 15px;
+}
+
+ul#navbar > li > a{
+  color: orange;
+  font-size: 20px;
+  text-decoration: none;
+}
