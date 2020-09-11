@@ -30,7 +30,6 @@ ul#navbar > li > a{
 
 /* SETING UP Parallax */
 #bannar{
-    background-color: pink;
     background-image: url("https://vignette.wikia.nocookie.net/avatar/images/b/b7/Avatar_World_map.png/revision/latest?cb=20131005142135");
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,6 +120,7 @@ ul#navbar > li > a{
   align-items: center;
   flex-direction: row;
 }
+#katara-row, #toph-row{ flex-direction: row-reverse;}
 
 .char-img, .char-info{
   height: 90%;
@@ -162,8 +162,33 @@ ul#navbar > li > a{
 }
 
 /* SETTING UP CHARACTERS ROW */
-#aang-row{ background-color: rgba(255, 179, 70, 0.75); }
-#katara-row{ background-color: rgba(144, 185, 204, 0.75); }
-#sokka-row{ background-color: rgba(119, 158, 204, 0.75); }
-#toph-row{ background-color: rgba(82, 167, 54, 0.75); }
-#zuko-row{ background-color: rgba(130, 0, 1, 0.75); }
+#aang-row{ background-image: linear-gradient(to right, rgba(255,179,70,0.65), rgba(255,179,70,1)); }
+#katara-row{ background-image: linear-gradient(to left, rgba(144, 185, 204, 0.75), rgba(144, 185, 204, 1)); }
+#sokka-row{ background-image: linear-gradient(to right, rgba(119, 158, 204, 0.75), rgba(119, 158, 204, 1)); }
+#toph-row{ background-image: linear-gradient(to left, rgba(82, 167, 54, 0.75), rgba(82, 167, 54, 1)); }
+#zuko-row{ background-image: linear-gradient(to right, rgba(130, 0, 1, 0.75), rgba(130, 0, 1, 0.9)); }
+
+
+
+
+/* SETTING UP SUBSCRIPTION FORM */
+#subscription_form{
+  background-image: url("https://coverfiles.alphacoders.com/494/49479.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 63.8vh;
+  margin: 0;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 1.2em;
+}
+
+#form-caption{
+  background-color: rgba(134, 0, 0,0.6);
+  padding: 30px
+}
+
+
