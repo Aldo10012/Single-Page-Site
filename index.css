@@ -131,7 +131,39 @@ ul#navbar > li > a{
   flex-direction: row;
 }
 
-.char-img{  background-color: yellowgreen;}
+.char-info{  font-size: 1.75em;}
 
-.char-info{  background-color: greenyellow; font-size: 1.75em;}
+/* SETTING UP CHARACTERS PICS */
+.char-img{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
+#aang-pic{
+  background-image: url("https://i.pinimg.com/originals/3a/ed/1c/3aed1c48c5d93fd055196cdf9c6f992a.png");
+}
+
+#katara-pic{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png");
+}
+
+#sokka-pic{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/c/cc/Sokka.png");
+}
+
+#toph-pic{
+  background-image: url("https://nick-intl.mtvnimages.com/uri/mgid:file:gsp:kids-assets:/nick/properties/avatar/characters/toph-character-web-desktop.png?height=0&width=480&matte=true&crop=false");
+  background-size: cover;
+}
+
+#zuko-pic{
+  background-image: url("https://vignette.wikia.nocookie.net/villains/images/2/23/Principe_zuko_by_yuzumi2000-d6lbrj4.png/revision/latest?cb=20170611234341")
+}
+
+/* SETTING UP CHARACTERS ROW */
+#aang-row{ background-color: rgba(255, 179, 70, 0.75); }
+#katara-row{ background-color: rgba(144, 185, 204, 0.75); }
+#sokka-row{ background-color: rgba(119, 158, 204, 0.75); }
+#toph-row{ background-color: rgba(82, 167, 54, 0.75); }
+#zuko-row{ background-color: rgba(130, 0, 1, 0.75); }
